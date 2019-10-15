@@ -1,0 +1,57 @@
+Servoreeler Web Server Change Log
+
+1.4.0
+Bug fix - Some buttons showed press feedback while disabled
+Bug fix - Config page did not reflect configuration changes on reload
+Bug fix - Master controllers list in settings overflowed with 7+ controllers
+Bug fix - Long preset name would overflow preset button
+Bug fix - Releasing up/down button outside of pressed button would not cause buttong to release
+Add User Presets section to settings for inspecting, downloading, and uploading presets
+Add renew DHCP lease button to server network settings
+Change server network DHCP configuration selection from checkbox to menu
+Change controller network DHCP configuration selection from checkbox to menu
+Larger position indicators and flashing preset position indicators
+Display sensor feedback icons based on unit type
+Display unit names on diagnostics and indicators settings pages
+CSS improvements for scrolling windows
+Interface layout improvements
+Improved handling of stopping processes
+
+4-7-19
+1.3.1
+Add firmware update utility
+
+3-27-19
+1.3.0
+Install Avahi zero-config networking daemon in place of bonjour service
+Avahi self-assigns an IP address when a DHCP lease fails
+Improve update routine using bash script
+
+3-17-19
+1.2.2
+Bug fix - Save configuration file at startup
+Controls diplay fix for iOS 10
+Bonjour and Log service start/stop improvements
+Improve GUI update JSON object creation
+
+3-11-19
+1.2.1
+Fix DNS address parse bug when multiple DNS servers are assigned
+
+2-10-19
+Version 1.2.0
+Separate web server into separate process
+Separate bonjour service into separate process
+Improved network status updates and bug fixes
+Fix log auto scrolling behavior
+Increased user feedback during server software update
+Improved software update routine
+Logger now rolls over to new file when size exceeds 5MB
+Improved web page loading and initilization
+Added web page for uploading manual update file
+Added logging for ethernet connection changes
+Added option to automatically check for server updates
+Added icon to controls page to indicate an update is available
+Added custom controller names to configuration page
+Added reboot controller button to controller diagnostics
+Fixed bug that caused corrupt preferences file
